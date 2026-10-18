@@ -5,7 +5,6 @@ So i am a young developer trying to learn python so here are the solutions i hav
 **My Solution to it a little simple but it does the job**
 ```python
 def snake_case(name):
-    size = len(name)
     for char in name:
             if char.isupper():
                 lchar = char.lower()
